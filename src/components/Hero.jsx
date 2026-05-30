@@ -4,20 +4,25 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center"
+      className="min-h-screen flex items-center pt-36 pb-16 lg:pt-24 lg:pb-0"
     >
       <div className="max-w-6xl mx-auto px-8 w-full">
 
         <div className="grid lg:grid-cols-[1.4fr_1fr] gap-16 items-center">
 
-          {/* Left Side */}
-          <div>
+          <div   className="
+          max-w-xl
+          mx-auto
+          text-center
+          lg:text-left
+          lg:mx-0
+          ">
 
             <p className="text-blue-400 font-medium mb-4">
               Software Developer & AI Enthusiast
             </p>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-none mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight leading-none mb-6">
                 Norman Jeremy
                 <br />
                 <span className="block text-center">
@@ -30,7 +35,7 @@ export default function Hero() {
               OCR systems, and modern web solutions.
             </p>
 
-            <div className="flex gap-4">
+            <div className= "flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
 
               <button className="px-6 py-3 bg-white text-black rounded-full font-medium hover:scale-105 transition-all duration-300">
                 View Projects
@@ -44,15 +49,25 @@ export default function Hero() {
 
           </div>
 
-          {/* Right Side */}
-          <div className="flex justify-end">
+
+          <div className="flex justify-center lg:justify-end mb-12 lg:mb-0">
 
             <div className="relative">
 
               <img
                 src={heroImage}
                 alt="Jeremy"
-                className="w-[420px] h-[520px] object-cover rounded-3xl border border-white/10"
+                className="
+                w-[300px] 
+                h-[420px] 
+                sm:w-[340px] 
+                sm:h-[430px] 
+                lg:w-[420px] 
+                lg:h-[520px] 
+                object-cover 
+                rounded-3xl 
+                border 
+                border-white/10"
               />
 
             </div>
