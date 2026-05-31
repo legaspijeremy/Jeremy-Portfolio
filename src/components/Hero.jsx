@@ -8,7 +8,7 @@ export default function Hero() {
     >
       <div className="max-w-6xl mx-auto px-8 w-full">
 
-        <div className="grid lg:grid-cols-[1.4fr_1fr] gap-16 items-center">
+        <div className="grid lg:grid-cols-[1.25fr_1fr] gap-16 items-center">
 
           <div   className="
           max-w-xl
@@ -23,11 +23,11 @@ export default function Hero() {
             </p>
 
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight leading-none mb-6">
-                Norman Jeremy
-                <br />
-                <span className="block text-center">
-                    Legaspi
-                </span>
+               Norman Jeremy
+              <br />
+              <span className="block lg:ml-48">
+                Legaspi
+              </span>
             </h1>
 
             <p className="text-zinc-400 text-lg max-w-xl mb-8">
@@ -49,8 +49,7 @@ export default function Hero() {
 
           </div>
 
-
-          <div className="flex justify-center lg:justify-end mb-12 lg:mb-0">
+          <div className="flex justify-center lg:justify-end mb-12 lg:mb-0 lg:pt-12">
 
             <div className="relative">
 
