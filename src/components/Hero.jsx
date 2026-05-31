@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center pt-36 pb-16 lg:pt-24 lg:pb-0"
+      className="min-h-screen flex items-center pt-36 pb-24 lg:pt-24 lg:pb-24"
     >
       <div className="max-w-6xl mx-auto px-8 w-full">
 

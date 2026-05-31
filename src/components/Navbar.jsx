@@ -11,12 +11,12 @@ export default function Navbar() {
         </a>
 
         <nav className="hidden md:flex items-center gap-8 text-sm text-zinc-400">
-          <a href="#projects" className="text-zinc-400 hover:text-white transition-colors duration-300">
-            Projects
-          </a>
-
           <a href="#about" className="text-zinc-400 hover:text-white transition-colors duration-300">
             About
+          </a>
+          
+          <a href="#projects" className="text-zinc-400 hover:text-white transition-colors duration-300">
+            Projects
           </a>
 
           <a href="#research" className="text-zinc-400 hover:text-white transition-colors duration-300">
