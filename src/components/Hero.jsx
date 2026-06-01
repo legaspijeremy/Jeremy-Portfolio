@@ -23,11 +23,7 @@ export default function Hero() {
             </p>
 
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight leading-none mb-6">
-               Norman Jeremy
-              <br />
-              <span className="block lg:ml-48">
-                Legaspi
-              </span>
+               Norman Jeremy Legaspi
             </h1>
 
             <p className="text-zinc-400 text-lg max-w-xl mb-8">
