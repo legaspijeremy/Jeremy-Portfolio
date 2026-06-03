@@ -28,9 +28,23 @@ export default function Navbar() {
           </a>
         </nav>
 
-        <button className="px-5 py-2 rounded-full bg-white text-black text-sm font-medium hover:scale-105 transition-all duration-300">
-          Resume
-        </button>
+          <a
+            href="/Legaspi_NormanJeremy_Resume.pdf"
+            download
+            className="
+            px-5 py-2
+            rounded-full
+            bg-white
+            text-black
+            text-sm
+            font-medium
+            hover:scale-105
+            transition-all
+            duration-300
+            "
+          >
+            Resume
+          </a>
 
       </div>
     </header>

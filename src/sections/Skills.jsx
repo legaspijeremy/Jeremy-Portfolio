@@ -77,7 +77,7 @@ export default function Skills() {
                 </h3>
 
                 <p className="text-zinc-400">
-                    Git, GitHub, VS Code,
+                    GitHub, VS Code,
                     Agile Development
                 </p>
             </div>

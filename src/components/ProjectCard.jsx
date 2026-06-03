@@ -2,6 +2,9 @@ export default function ProjectCard({ project }) {
   return (
     <div
       className="
+      h-full
+      flex
+      flex-col
       border border-white/10
       rounded-3xl
       overflow-hidden
@@ -26,7 +29,7 @@ export default function ProjectCard({ project }) {
             "/>
         </div>
 
-      <div className="p-6">
+      <div className="p-6 flex flex-col flex-grow">
 
         <p className="text-blue-400 text-sm mb-3">
           {project.category}
@@ -36,7 +39,7 @@ export default function ProjectCard({ project }) {
           {project.title}
         </h3>
 
-        <p className="text-zinc-400 mb-6">
+        <p className="text-zinc-400 mb-6 flex-grow">
           {project.description}
         </p>
 
@@ -55,36 +58,44 @@ export default function ProjectCard({ project }) {
             ))}
         </div>
 
-        <div className="flex gap-3 mt-4">
-            <a
-            href={project.github}
-            target="_blank"
-            rel="noreferrer"
-            className="
-            px-4 py-2
-            rounded-full
-            border border-white/10
-            hover:bg-white/5
-            transition
-            ">
-            GitHub
-            </a>
+        <div className="flex flex-wrap gap-2 mt-3">
+              {project.github && (
+                <a
+                href={project.github}
+                target="_blank"
+                rel="noreferrer"
+                className="
+                px-4 py-2
+                rounded-full
+                border border-white/10
+                hover:bg-white/5
+                transition
+                flex-shrink-0
+                "
+                >
+                GitHub
+                </a>
+              )}
 
-            <a
-            href={project.live}
-            target="_blank"
-            rel="noreferrer"
-            className="
-            px-4 py-2
-            bg-white
-            text-black
-            rounded-full
-            font-medium
-            hover:scale-105
-            transition
-            ">
-            Live Demo
-            </a>
+              {project.live && (
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="
+                  px-4 py-2
+                  bg-white
+                  text-black
+                  rounded-full
+                  font-medium
+                  hover:scale-105
+                  transition
+                  flex-shrink-0
+                  "
+                  >
+                  Live Demo
+                </a>
+              )}
         </div>
       </div>
     </div>

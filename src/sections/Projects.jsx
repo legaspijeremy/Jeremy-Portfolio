@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="pt-12 pb-24 px-8"
+      className="pt-12 pb-24 px-8 scroll-mt-12"
     >
       <div className="max-w-6xl mx-auto">
 

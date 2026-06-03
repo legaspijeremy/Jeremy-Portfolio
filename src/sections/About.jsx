@@ -25,8 +25,7 @@ export default function About() {
                 </h3>
 
                 <p className="text-zinc-400 leading-relaxed">
-                    Replace this text with your personal
-                    introduction later.
+                    I am a third-year Bachelor of Science in Computer Science student at De La Salle University–Dasmariñas with a specialization in Intelligent Systems. I am interested in software development, artificial intelligence, machine learning, and web technologies. I enjoy building practical applications that combine modern software engineering with AI-driven solutions to solve real-world problems.
                 </p>
             </div>
 
@@ -35,9 +34,33 @@ export default function About() {
                     Education
                 </h3>
 
-                <p className="text-zinc-400 leading-relaxed">
-                    Add your education details later.
-                </p>
+                <ul className="text-zinc-400 leading-relaxed space-y-6">
+
+                    <li>
+                        <span className="text-white font-medium">
+                            Bachelor of Science in Computer Science
+                        </span>
+                        <br />
+                            Specialization in Intelligent Systems
+                        <br />
+                            De La Salle University–Dasmariñas
+                        <br />
+                            2023 – Present
+                    </li>
+
+                    <li>
+                        <span className="text-white font-medium">
+                            Senior High School Diploma
+                        </span>
+                        <br />
+                            ICT Strand (Technical High-School)
+                        <br />
+                            San Beda College Alabang
+                        <br />
+                            2021 – 2023
+                    </li>
+
+</ul>
             </div>
         </div>
 
@@ -50,8 +73,7 @@ export default function About() {
             </h3>
 
             <p className="text-zinc-400 leading-relaxed">
-                Replace this text with your current
-                interests and specialization later.
+                Currently developing projects involving OCR, AI-powered learning systems, and modern web applications using React and Tailwind CSS. My current research focuses on adaptive educational technology, intelligent tutoring systems, and privacy-friendly student behavior analysis.
             </p>
         </div>
 

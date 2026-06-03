@@ -1,4 +1,4 @@
-import heroImage from "../assets/hero.png";
+import heroImage from "../assets/ID.jpg";
 
 export default function Hero() {
   return (
@@ -33,13 +33,43 @@ export default function Hero() {
 
             <div className= "flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
 
-              <button className="px-6 py-3 bg-white text-black rounded-full font-medium hover:scale-105 transition-all duration-300">
-                View Projects
-              </button>
+            <button
+              onClick={() =>
+              document.getElementById("projects")?.scrollIntoView({
+              behavior: "smooth",
+              })
+              }
+              className="
+              px-6 py-3
+              bg-white
+              text-black
+              rounded-full
+              font-medium
+              hover:scale-105
+              transition-all
+              duration-300
+              "
+              >
+              View Projects
+            </button>
 
-              <button className="px-6 py-3 border border-white/10 rounded-full hover:bg-white/5 transition-all duration-300">
-                Download CV
-              </button>
+            <a
+              href="/Legaspi_NormanJeremy_CV.pdf"
+              download
+              className="
+              px-6 py-3
+              border border-white/10
+              rounded-full
+              hover:bg-white/5
+              transition-all
+              duration-300
+              inline-flex
+              items-center
+              justify-center
+              "
+            >
+              Download CV
+            </a>
 
             </div>
 
