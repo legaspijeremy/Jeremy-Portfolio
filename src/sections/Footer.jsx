@@ -13,7 +13,7 @@ export default function Footer() {
             </h3>
 
             <p className="text-zinc-400">
-              Software Developer & AI Enthusiast
+              Computer Science Student & Intelligent Systems Enthusiast
             </p>
 
           </div>
@@ -22,14 +22,18 @@ export default function Footer() {
           <div className="flex gap-6 text-zinc-400">
 
             <a
-              href="#"
+              href="https://github.com/legaspijeremy"
+              target="_blank"
+              rel="noreferrer"
               className="hover:text-white transition"
             >
               GitHub
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/norman-jeremy-legaspi/"
+              target="_blank"
+              rel="noreferrer"
               className="hover:text-white transition"
             >
               LinkedIn
@@ -49,7 +53,7 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-white/10">
 
           <p className="text-zinc-500 text-sm text-center">
-            © 2026 Norman Jeremy Legaspi. All rights reserved.
+            © 2026 Norman Jeremy Legaspi.
           </p>
 
         </div>

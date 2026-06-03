@@ -1,5 +1,6 @@
 import projects from "../data/projects";
 import ProjectCard from "../components/ProjectCard";
+import FadeInSection from "../components/FadeInSection";
 
 export default function Projects() {
   return (
@@ -7,6 +8,7 @@ export default function Projects() {
       id="projects"
       className="pt-12 pb-24 px-8 scroll-mt-12"
     >
+    <FadeInSection>
       <div className="max-w-6xl mx-auto">
 
         <p className="text-blue-400 font-medium mb-4">
@@ -27,6 +29,7 @@ export default function Projects() {
         ))}
       </div>
     </div>
+    </FadeInSection>
     </section>
   );
 }

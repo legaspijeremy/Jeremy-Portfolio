@@ -1,9 +1,12 @@
+import FadeInSection from "../components/FadeInSection";
+
 export default function About() {
   return (
     <section
       id="about"
       className="py-24 px-8"
     >
+    <FadeInSection>
       <div className="max-w-6xl mx-auto">
 
         <p className="text-blue-400 font-medium mb-4">
@@ -91,6 +94,8 @@ export default function About() {
         </div>
       </div>
     </div>
+    </ FadeInSection>
     </section>
+
   );
 }

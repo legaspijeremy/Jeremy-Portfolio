@@ -1,5 +1,8 @@
+import FadeInSection from "../components/FadeInSection";
+
 export default function Skills() {
   return (
+    <FadeInSection>
     <section
       id="skills"
       className="pt-12 pb-24 px-8"
@@ -33,8 +36,7 @@ export default function Skills() {
                 </h3>
 
                 <p className="text-zinc-400">
-                    React, JavaScript, Tailwind CSS,
-                    Responsive Design
+                    React, JavaScript, Tailwind CSS
                 </p>
             </div>
 
@@ -86,5 +88,6 @@ export default function Skills() {
 
       </div>
     </section>
+    </FadeInSection>
   );
 }

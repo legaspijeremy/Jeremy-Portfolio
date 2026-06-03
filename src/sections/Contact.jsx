@@ -1,9 +1,12 @@
+import FadeInSection from "../components/FadeInSection";
+
 export default function Contact() {
   return (
     <section
       id="contact"
       className="py-24 px-8"
     >
+    <FadeInSection>
       <div className="max-w-6xl mx-auto">
 
         <p className="text-blue-400 font-medium mb-4">
@@ -100,7 +103,7 @@ export default function Contact() {
               <div className="flex flex-wrap gap-4 mt-10">
 
                 <a
-                  href="mailto:your@email.com"
+                  href="mailto:legaspi.normanjeremy10@gmail.com?subject=Portfolio Inquiry"
                   className="
                   px-6 py-3
                   bg-white
@@ -115,7 +118,9 @@ export default function Contact() {
                   Send Email
                 </a>
 
-                <button
+                <a
+                  href="/Legaspi_NormanJeremy_Resume.pdf"
+                  download
                   className="
                   px-6 py-3
                   border border-white/10
@@ -123,10 +128,13 @@ export default function Contact() {
                   hover:bg-white/5
                   transition-all
                   duration-300
+                  inline-flex
+                  items-center
+                  justify-center
                   "
                 >
                   Download Resume
-                </button>
+                </a>
 
               </div>
 
@@ -137,6 +145,7 @@ export default function Contact() {
         </div>
 
       </div>
+      </FadeInSection>
     </section>
   );
 }

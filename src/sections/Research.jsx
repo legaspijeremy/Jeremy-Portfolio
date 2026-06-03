@@ -1,9 +1,12 @@
+import FadeInSection from "../components/FadeInSection";
+
 export default function Research() {
   return (
     <section
       id="research"
       className="py-24 px-8"
     >
+    <FadeInSection>
       <div className="max-w-6xl mx-auto">
 
         <p className="text-blue-400 font-medium mb-4">
@@ -134,7 +137,7 @@ export default function Research() {
           </div>
         </div>
         </div>
-
+      </FadeInSection>
     </section>
   );
 }

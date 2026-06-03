@@ -19,7 +19,7 @@ export default function Hero() {
           ">
 
             <p className="text-blue-400 font-medium mb-4">
-              Software Developer & AI Enthusiast
+              Computer Science Student & Intelligent Systems Enthusiast
             </p>
 
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight leading-none mb-6">
