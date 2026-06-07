@@ -29,7 +29,7 @@ export default function Navbar() {
         </nav>
 
           <a
-            href="/Legaspi_NormanJeremy_Resume.pdf"
+            href={`${import.meta.env.BASE_URL}Legaspi_NormanJeremy_Resume.pdf`}
             download
             className="
             px-5 py-2

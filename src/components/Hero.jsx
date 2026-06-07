@@ -54,7 +54,7 @@ export default function Hero() {
             </button>
 
             <a
-              href="/Legaspi_NormanJeremy_CV.pdf"
+              href={`${import.meta.env.BASE_URL}Legaspi_NormanJeremy_CV.pdf`}
               download
               className="
               px-6 py-3

@@ -119,7 +119,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="/Legaspi_NormanJeremy_Resume.pdf"
+                  href={`${import.meta.env.BASE_URL}Legaspi_NormanJeremy_Resume.pdf`}
                   download
                   className="
                   px-6 py-3
