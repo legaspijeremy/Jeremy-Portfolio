@@ -33,27 +33,28 @@ export default function Footer() {
 
           </div>
 
-<div className="flex flex-col">
+            {/* Right Side */}
+          <div className="flex flex-col">
 
-  <div className="flex gap-6 text-zinc-400">
+          <div className="flex gap-6 text-zinc-400">
 
-    <a
-      href="https://github.com/legaspijeremy"
-      target="_blank"
-      rel="noreferrer"
-      className="hover:text-white transition"
-    >
-      GitHub
-    </a>
+          <a
+            href="https://github.com/legaspijeremy"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-white transition"
+          >
+          GitHub
+          </a>
 
-    <a
-      href="https://www.linkedin.com/in/norman-jeremy-legaspi/"
-      target="_blank"
-      rel="noreferrer"
-      className="hover:text-white transition"
-    >
-      LinkedIn
-    </a>
+          <a
+            href="https://www.linkedin.com/in/norman-jeremy-legaspi/"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-white transition"
+          >
+            LinkedIn
+          </a>
 
     <button
       onClick={copyFooterEmail}
