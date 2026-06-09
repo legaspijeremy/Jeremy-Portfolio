@@ -1,3 +1,5 @@
+import { urlFor } from "../lib/sanity";
+
 export default function ProjectCard({ project }) {
   return (
     <div
@@ -17,7 +19,7 @@ export default function ProjectCard({ project }) {
     >
     <div className="overflow-hidden">
         <img
-            src={project.image}
+            src={project.image ? urlFor(project.image).url() : ""}
             alt={project.title}
             className="
             w-full
@@ -44,7 +46,7 @@ export default function ProjectCard({ project }) {
         </p>
 
         <div className="flex flex-wrap gap-2">
-            {project.technologies.map((tech) => (
+            {project.technologies?.map((tech) => (
             <span
                 key={tech}
                     className="

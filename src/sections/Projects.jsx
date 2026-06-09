@@ -1,8 +1,32 @@
-import projects from "../data/projects";
+import { useEffect, useState } from "react";
+import { client } from "../lib/sanity";
 import ProjectCard from "../components/ProjectCard";
 import FadeInSection from "../components/FadeInSection";
 
 export default function Projects() {
+  const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+      client
+        .fetch(
+          `*[_type == "project"]{
+          _id,
+          title,
+          category,
+          description,
+          technologies,
+          github,
+          live,
+          image
+        }`
+      )
+      .then((data) => {
+        console.log("SANITY DATA:", data);
+        setProjects(data);
+      })
+      .catch(console.error);
+  }, []);
+
   return (
     <section
       id="projects"
@@ -23,7 +47,7 @@ export default function Projects() {
         
         {projects.map((project) => (
           <ProjectCard
-            key={project.id}
+            key={project._id}
             project={project}
           />
         ))}
